@@ -253,8 +253,8 @@ We welcome contributions to improve this framework:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/climate-agricultural-risk-analysis.git
-cd climate-agricultural-risk-analysis
+git clone https://github.com/Brian-Masheti/Adaptation-Atlas-Data-Storytelling-Challenge-Track-2-Crop-Pests-and-Diseases.git
+cd Adaptation-Atlas-Data-Storytelling-Challenge-Track-2-Crop-Pests-and-Diseases
 
 # Create virtual environment
 python -m venv venv
@@ -299,7 +299,7 @@ If you use this framework in your research, please cite:
   title={Climate-Driven Agricultural Risk Analysis Framework},
   author={Masheti, Brian Savatia},
   year={2025},
-  url={https://github.com/brian-Masheti/climate-agricultural-risk-analysis},
+  url={https://github.com/Brian-Masheti/Adaptation-Atlas-Data-Storytelling-Challenge-Track-2-Crop-Pests-and-Diseases},
   note={Zindi Adaptation Atlas Challenge - Track 2: Agricultural risk analysis framework}
 }
 ```
