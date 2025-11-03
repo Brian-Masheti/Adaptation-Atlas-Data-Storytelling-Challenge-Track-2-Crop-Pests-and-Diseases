@@ -51,10 +51,17 @@ models/*.pkl
 models/*.joblib
 models/*.h5
 
-# Outputs
-outputs/
+# Outputs (excluding HTML submission file)
+outputs/*.csv
+outputs/*.json
+outputs/*.pkl
+outputs/*.joblib
+outputs/*.log
 logs/
 *.log
+
+# Keep HTML submission file
+!outputs/submission.html
 
 # OS
 .DS_Store
