@@ -4,14 +4,13 @@
 
 This project presents a comprehensive machine learning framework for analyzing climate-driven pest and disease risks in African agriculture. The system combines advanced ensemble methods with sophisticated feature engineering to provide actionable insights for agricultural decision-making and food security planning.
 
-## 🏆 Competition Achievement
+## 🌍 Project Background
 
 **Zindi Adaptation Atlas Challenge - Track 2: Climate Impacts on Crop Pests and Diseases**
 
-- **Final Score**: 0.925 (Top 10% of participants)
-- **Rank**: Tied for 1st place among 150+ competitors
 - **Challenge Focus**: Climate risk assessment and data storytelling for African agriculture
-- **Submission Date**: November 2024
+- **Participation Date**: November 2024
+- **Project Type**: Machine Learning framework for agricultural risk analysis
 
 ## 🎯 Project Objectives
 
@@ -48,7 +47,7 @@ This framework addresses critical questions about climate risk and adaptation fo
 
 ### Model Validation Results
 
-- **Cross-Validation Score**: 0.925 ± 0.003
+- **Cross-Validation Score**: Strong performance with robust validation
 - **Training Accuracy**: 94.2%
 - **Feature Importance**: Climate variables contribute 78% of predictive power
 - **Computational Efficiency**: <10 minutes training time
@@ -92,13 +91,13 @@ joblib>=1.3.0
 ### Basic Usage
 
 ```python
-from fast_winner import FastWinner
+from src.climate_risk_analyzer import ClimateRiskAnalyzer
 
 # Initialize the model
-model = FastWinner()
+model = ClimateRiskAnalyzer()
 
 # Load and prepare data
-X_train, X_test, y_train, y_test = model.load_and_prepare_data()
+X_train, X_test, y_train, y_test = model.create_winning_data()
 
 # Train the ensemble
 model.train_ensemble(X_train, y_train)
@@ -123,25 +122,27 @@ config = {
     'colsample_bytree': 0.8
 }
 
-model = FastWinner(config=config)
+model = ClimateRiskAnalyzer(config=config)
 model.train_optimized(X_train, y_train)
 ```
 
 ## 📁 Project Structure
 
 ```
-├── fast_winner.py              # Main winning model (0.925 score)
-├── requirements.txt            # Python dependencies
-├── data/                       # Data directory
-│   ├── raw/                    # Raw climate and agricultural data
-│   └── processed/              # Processed features and datasets
-├── models/                     # Trained model artifacts
-│   ├── fast_winner_models.pkl  # Ensemble model weights
-│   └── fast_winner_weights.pkl # Model configuration
-├── outputs/                    # Results and submissions
-│   └── fast_winner_submission.csv # Final competition submission
-├── notebooks/                  # Analysis and visualization notebooks
-└── docs/                       # Documentation and technical reports
+├── src/
+│   └── climate_risk_analyzer.py  # Main analysis framework
+├── main.py                       # Entry point script
+├── requirements.txt              # Python dependencies
+├── data/                         # Data directory
+│   ├── raw/                      # Raw climate and agricultural data
+│   └── processed/                # Processed features and datasets
+├── models/                       # Trained model artifacts
+│   ├── fast_winner_models.pkl    # Ensemble model weights
+│   └── fast_winner_weights.pkl   # Model configuration
+├── outputs/                      # Results and submissions
+│   └── submission.html           # HTML submission file
+├── notebooks/                    # Analysis and visualization notebooks
+└── docs/                         # Documentation and technical reports
 ```
 
 ## 🌟 Key Innovations
@@ -210,7 +211,7 @@ model.train_optimized(X_train, y_train)
 
 ### Evaluation Metrics
 
-- **Primary Metric**: R² score (target: >0.925)
+- **Primary Metric**: R² score for model performance evaluation
 - **Secondary Metrics**: RMSE, MAE, correlation coefficient
 - **Robustness Checks**: Spatial and temporal validation
 - **Uncertainty Quantification**: Prediction intervals and confidence bounds
@@ -283,7 +284,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Contact
 
-- **Name**: Brian Masheti
+- **Name**: Brian Savatia Masheti
 - **Role**: Data Analyst and Developer
 - **Email**: [savatiabrian92@gmail.com]
 - **GitHub**: [https://github.com/brian-Masheti]
@@ -296,15 +297,15 @@ If you use this framework in your research, please cite:
 ```bibtex
 @software{climate_agricultural_risk_analysis,
   title={Climate-Driven Agricultural Risk Analysis Framework},
-  author={Masheti, Brian},
+  author={Masheti, Brian Savatia},
   year={2025},
-  url={https://github.com/bmasheti/climate-agricultural-risk-analysis},
-  note={Zindi Adaptation Atlas Challenge - Track 2: 0.925 score}
+  url={https://github.com/brian-Masheti/climate-agricultural-risk-analysis},
+  note={Zindi Adaptation Atlas Challenge - Track 2: Agricultural risk analysis framework}
 }
 ```
 
 ---
 
-**Built by Brian Masheti - Data Analyst & Developer** 🌍🌾
+**Built by Brian Savatia Masheti - Data Analyst & Developer** 🌍🌾
 
-*This framework was developed for the Zindi Adaptation Atlas Challenge and achieved a top-10 performance with a score of 0.925, demonstrating advanced machine learning capabilities for agricultural risk assessment.*
+*This framework was developed for the Zindi Adaptation Atlas Challenge, demonstrating advanced machine learning capabilities for agricultural risk assessment and climate adaptation planning in Africa.*

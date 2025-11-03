@@ -2,13 +2,13 @@
 Climate-Driven Agricultural Risk Analysis Framework
 Advanced Ensemble Machine Learning for Pest and Disease Prediction
 
-This module implements the winning solution for the Zindi Adaptation Atlas Challenge,
-achieving a score of 0.925 and ranking in the top 10% of participants.
+This module implements a comprehensive solution for the Zindi Adaptation Atlas Challenge,
+focusing on climate risk assessment and agricultural decision support.
 
-Author: Brian Masheti
+Author: Brian Savatia Masheti
 Role: Data Analyst and Developer
 Competition: Zindi Adaptation Atlas Challenge - Track 2
-Score: 0.925 (Top 10% - Tied for 1st place)
+Project: Agricultural risk analysis framework
 Date: November 2024
 """
 

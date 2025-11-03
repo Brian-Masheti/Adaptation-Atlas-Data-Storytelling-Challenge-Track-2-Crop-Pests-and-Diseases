@@ -3,10 +3,10 @@
 Climate-Driven Agricultural Risk Analysis Framework
 Main Entry Point
 
-Author: Brian Masheti
+Author: Brian Savatia Masheti
 Role: Data Analyst and Developer
 Competition: Zindi Adaptation Atlas Challenge - Track 2
-Score: 0.925 (Top 10% - Tied for 1st place)
+Project: Agricultural risk analysis framework
 Date: November 2024
 """
 
@@ -25,14 +25,14 @@ def main():
     """
     Main execution function for the Climate Risk Analysis Framework.
     
-    This function demonstrates the complete workflow used to achieve
-    the 0.925 score in the Zindi Adaptation Atlas Challenge.
+    This function demonstrates the complete workflow for agricultural
+    risk analysis and climate adaptation planning.
     """
     
     print("🌍 Climate-Driven Agricultural Risk Analysis Framework")
     print("=" * 60)
-    print("🏆 Zindi Adaptation Atlas Challenge - Track 2")
-    print("🎯 Final Score: 0.925 (Top 10% - Tied for 1st place)")
+    print("🌍 Zindi Adaptation Atlas Challenge - Track 2")
+    print("🎯 Agricultural Risk Analysis and Climate Adaptation")
     print("=" * 60)
     
     try:
@@ -58,7 +58,7 @@ def main():
         
         print(f"\n🎉 Analysis Complete!")
         print(f"📊 Final Score: {score:.3f}")
-        print(f"🏆 Target Achieved: {'Yes' if score >= 0.925 else 'No'}")
+        print(f"✅ Agricultural Risk Analysis Framework executed successfully!")
         
         # Save results
         analyzer.save_results(predictions, "outputs/predictions.csv")
