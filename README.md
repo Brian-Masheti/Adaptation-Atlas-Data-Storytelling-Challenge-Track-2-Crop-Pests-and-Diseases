@@ -288,7 +288,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Role**: Data Analyst and Developer
 - **Email**: [savatiabrian92@gmail.com]
 - **GitHub**: [https://github.com/brian-Masheti]
-- **LinkedIn**: [https://linkedin.com/in/brian-masheti]
+- **LinkedIn**: [https://www.linkedin.com/in/brian-masheti20/]
 
 ## 📊 Citation
 
